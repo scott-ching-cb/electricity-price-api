@@ -23,6 +23,8 @@ The following assumptions were made whilst planning and implementing this challe
 2. Navigate to the project root directory and execute `pip install` to ensure all project dependencies are downloaded.
 3. Ensure that `flask` is installed as described [here](https://flask.palletsprojects.com/en/stable/installation/)
 4. From the `/electricity-price-api` directory, navigate to the 'app' package and execute the following command: `flask --app __main__ run`
+5. Testing the request can be done via a `GET` request to `http://localhost:5000/price/<state>`
+   - Example of a full URI is `http://localhost:5000/price/Vic`
 
 
 ## Instructions for Running Unit Testcases
