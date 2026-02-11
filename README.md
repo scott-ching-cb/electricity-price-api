@@ -19,9 +19,13 @@ The following assumptions were made whilst planning and implementing this challe
 - Flask's default WSGI would be replaced by a production-ready WSGI (e.g. Waitress).
 
 ## Instructions for Starting the Flask Application
+1. Ensure that `python3` is installed (should come with `pip` installed).
+2. Navigate to the project root directory and execute `pip install` to ensure all project dependencies are downloaded.
+3. Ensure that `flask` is installed as described [here](https://flask.palletsprojects.com/en/stable/installation/)
+4. From the `/electricity-price-api` directory, navigate to the 'app' package and execute the following command: `flask --app __main__ run`
 
 
 ## Instructions for Running Unit Testcases
 1. Navigate to the root electricity-price-api directory.
-2. Ensure that python version 3.x is installed as well as the `unittest` dependency (via pip)
-3. Execute the following command `python3 -m unittest`
+2. Ensure that python version 3.x is installed as well as the `unittest` dependency (via pip).
+3. Execute the following command `python3 -m unittest`.
